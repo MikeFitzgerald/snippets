@@ -1,5 +1,12 @@
 # **Shell**
 
+## Find the top directories and files in Linux
+
+Top 10 largest file/directories:
+```sh
+du -a /var | sort -n -r | head -n 10
+```
+
 ## Get an MD5 hash of a string directly from the terminal.
 ```sh
 echo -n Welcome | md5sum
